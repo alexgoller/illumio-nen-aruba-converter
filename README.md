@@ -2,6 +2,8 @@
 
 This tool converts JSON firewall rules from Illumio NEN (Network Enforcement Node) format into Aruba switch ACL configurations.
 
+![Example file](images/example-output.png)
+
 ## Files
 
 - `aruba.jq` - jq script that transforms JSON firewall rules into Aruba ACL configuration
