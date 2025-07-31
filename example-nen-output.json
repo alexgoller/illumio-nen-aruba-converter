@@ -1,0 +1,446 @@
+[
+  {
+    "name": "IPcamera front building",
+    "href": "/orgs/1/workloads/00438646-35e8-423f-82e8-417e157aff57",
+    "rules": {
+      "Inbound": [
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "1",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "68",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "5666",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.34/32",
+            "10.0.1.132/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ],
+      "Outbound": [
+        {
+          "action": "permit",
+          "port": "53",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "67",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "",
+    "href": "/orgs/1/workloads/037c15c8-165f-402f-a9a5-af7b231b2b65",
+    "rules": {
+      "Inbound": [
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "1",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "68",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "5666",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.34/32",
+            "10.0.1.132/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ],
+      "Outbound": [
+        {
+          "action": "permit",
+          "port": "53",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "67",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "flowlink-wl-01",
+    "href": "/orgs/1/workloads/09fe317f-f8e3-45e9-9344-9b891f99f717",
+    "rules": {
+      "Inbound": [
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "1",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "68",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "5666",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.34/32",
+            "10.0.1.132/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ],
+      "Outbound": [
+        {
+          "action": "permit",
+          "port": "53",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "67",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "IPCamera1234",
+    "href": "/orgs/1/workloads/daa6b8de-e1ea-486f-8132-d9f507fd9da8",
+    "rules": {
+      "Inbound": [
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "1",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "68",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "5666",
+          "protocol": "6",
+          "ips": [
+            "10.0.1.34/32",
+            "10.0.1.132/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "22",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "3389",
+          "protocol": "17",
+          "ips": [
+            "10.0.1.2/32",
+            "10.0.1.7/32"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ],
+      "Outbound": [
+        {
+          "action": "permit",
+          "port": "53",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "67",
+          "protocol": "17",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        },
+        {
+          "action": "permit",
+          "port": "*",
+          "protocol": "*",
+          "ips": [
+            "*"
+          ]
+        }
+      ]
+    }
+  }
+]
