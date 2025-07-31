@@ -1,0 +1,30 @@
+# Aruba Switch ACL Configuration
+# Generated from JSON firewall rules
+
+ip access-list extended WORKLOAD_INBOUND_ACL
+
+10 permit icmp any any
+10 permit udp any any eq 68
+10 permit tcp host 10.0.1.2 any eq 22
+20 permit tcp host 10.0.1.7 any eq 22
+10 permit tcp host 10.0.1.2 any eq 3389
+20 permit tcp host 10.0.1.7 any eq 3389
+10 permit tcp host 10.0.1.34 any eq 5666
+20 permit tcp host 10.0.1.132 any eq 5666
+10 permit udp host 10.0.1.2 any eq 22
+20 permit udp host 10.0.1.7 any eq 22
+10 permit udp host 10.0.1.2 any eq 3389
+20 permit udp host 10.0.1.7 any eq 3389
+10 permit ip any any  # catch-all rule
+
+ip access-list extended WORKLOAD_OUTBOUND_ACL
+
+10 permit udp any any eq 53
+10 permit udp any any eq 67
+10 permit ip any any  # catch-all rule
+10 permit ip any any  # catch-all rule
+
+# Apply to VLAN interface
+interface vlan 10
+ ip access-group WORKLOAD_INBOUND_ACL in
+ ip access-group WORKLOAD_OUTBOUND_ACL out
